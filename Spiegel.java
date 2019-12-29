@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Spiegelpuzzel applicatie gebaseerd op de applet uit 2010.
  *
- * @version 	0.1, 29 Dec 2019
+ * @version 	1.0, 29 Dec 2019
  * @author Arnold van Hofwegen
  * Copyright 2019 Arnold van Hofwegen
  */
@@ -380,11 +380,6 @@ class Spiegel extends Frame implements MouseListener {
 
     public void mouseExited(MouseEvent e) {
     }
-
-	  // Deze mag nu weg
-    //public String getAppletInfo() {
-		//return "Spiegelpuzzelapplet by Arnold van Hofwegen";
-    //}
 
     // Toegevoegd main method
     public static void main(String args[])
